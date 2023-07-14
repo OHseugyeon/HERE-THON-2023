@@ -2,6 +2,86 @@
   float: left;
 }
 
+#leftframe {
+  width: 23.4375rem;
+  height: 61.375rem;
+  flex-shrink: 0;
+
+  background: #ffffff;
+}
+
+#toptitle {
+  width: 11.8125rem;
+  height: 1.4375rem;
+  flex-shrink: 0;
+
+  color: #000;
+  /* headline1 */
+  font-family: Pretendard;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#docimg {
+  width: 23.625rem;
+  height: 54.0625rem;
+
+  left: 0%;
+  top: 0%;
+}
+
+#greenbox {
+  width: 23.625rem;
+  height: 13.3125rem;
+  flex-shrink: 0;
+
+  border-radius: 1.25rem 1.25rem 0rem 0rem;
+  background: var(--s-2, #27ff7e);
+}
+
+#doctorname {
+  left: 1%;
+  top: 2.5%;
+
+  color: var(--s-3, #006026);
+  /* headline3 */
+  font-family: Pretendard;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0%; /* 0rem */
+}
+
+#dochosp {
+  width: 19.5rem;
+  height: 1.4375rem;
+  flex-shrink: 0;
+
+  color: var(--s-3, #006026);
+  font-family: Pretendard;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#helpscore {
+  display: flex;
+  width: 19.5rem;
+  height: 1.4375rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  color: var(--m-2, #811fff);
+  /* headline */
+  font-family: Pretendard;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 #myq {
   /* 나의 질문 */
 
