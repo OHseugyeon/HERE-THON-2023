@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>마이페이지3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      #container {
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        background-color: #e3e2e2;
+      }
+
+      * {
+        font-family: "Noto Sans KR", sans-serif;
+      }
+
+      textarea {
+        padding: 10px 10px;
+        font-size: 30px;
+      }
+    </style>
+    <link rel="stylesheet" href="/css/mypage3.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="greenbord">
+        <div id="mainment">새로운 QnA를 <br />작성해주세요</div>
+      </div>
+      <div id="title">제목</div>
+        <div id="titlewr">
+          <textarea style="border: none" cols="75" rows="1"
+          class="form-control" id="titlecontent"placeholder="제목을 작성 해주세요."></textarea>
+        </div>
+      </div>
+      <div id="content">내용</div>
+      <div id="contentwr">
+        <textarea style="border: none" cols="75" rows="8"
+        class="form-control" id="maincontent"placeholder="내용을 작성 해주세요."></textarea>
+      </div>
+
+      <div id="wrsuccessbtn">
+        <div id="wrsuccessment">작성 완료하기</div>
+      </div>
+    </div>
+  </body>
+</html>
